@@ -1,0 +1,80 @@
+.App {
+  background-color: white;
+  
+}
+
+.App .cam {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 2%;
+}
+
+.App .cam .camera-icon{
+  margin-top: 20px;
+  width: 50px;
+  height: 50px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.App .cam .camera-icon:hover{
+  width: 60px;
+  height: 60px;
+}
+
+div.share-btns .social-btn{
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  margin: 5px;
+  background-color: #fff;
+  
+}
+
+
+
+.App .cam button,
+.app .app-input .button-btn,
+.app .button-btn{
+  margin-top: 10px;
+  text-transform: lowercase;
+  display: inline-block;
+}
+.App .cam button::first-letter,
+.app .app-input .button-btn::first-letter,
+.app .button-btn::first-letter
+{
+  text-transform: capitalize;
+}
+
+.App .cam button:focus,
+.app .app-input .button-btn:focus,
+.app .button-btn:focus,
+button:focus{
+    outline: none !important;
+}
+
+
+
+.App .cam .camera, .app-container{
+  border-radius: 5px;
+  margin-top: 10px;
+	width: 500px;
+	height: 500px;
+	border: 1px solid #000;
+}
+
+.app {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+.app-input {
+	margin-top: 10px;
+}
